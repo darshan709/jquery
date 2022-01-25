@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+
+<body>
+<div class=main>
+    <section class="bar" style="background-color: gray;color: white;">
+        <div class="wrapper">
+            <div class="contact">Stay connected <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-linkedin"></i></div>
+            <div class="address">
+                <ul style="margin:0;padding:0;">
+				    <li style="float:left;padding-right:30px;">Mon-Sat: 7:00 - 18:00</li>
+				    <li style="float:left;padding-right:30px;">Sunday: Closed</li>
+				    <li style="float:left;padding-right:0px;">Emergency: 24hr / 7days</li>
+			    </ul>
+             </div>
+        </div>
+    </section> 
+    <section class="bar">
+        <div class="wrapper">
+            <div class="logo"><a href=""><h1>Construction <br/> &Renovation</h1></div></a>
+            <div class="quote"><i class="far fa-envelope-open"></i> WANT AN APPROXIMATE PRICE?<br/><span style="color:#f1552e; margin-right: 85px">GET A FREE QUOTE</span></div>
+            <div class="callus"><i class="fas fa-phone"></i> CALL US NOW <br/><span style="color:#f1552e; margin-right: 10px">715 387 5006</span> </div>
+        </div>
+    </section> 
+    <section class="bar none">
+        <div class="wrapper">
+            <div class="nav">
+                <ul class="menu-list">
+					<li class="hovernav active left"><a  class="pa"href="index.html">Home</a></li>
+					<li class="hovernav left"><a  class="pa"href="#">Services</a></li>
+					<li class="hovernav left"><a class="pa" href="#">Projects</a></li>
+					<li class="hovernav left"><a  class="pa"href="#">About</a></li>
+					<li  onclick="obj.log();"  class="hovernav left"><a class="pa" onclick="obj.log();" >Login</a></li>
+					<li class="hovernav left"><a  class="pa" onclick="obj.reg();" id="registerBtn">Register</a></li>
+					<li class="hovernav left"><a  class="pa"href="#">Contacts</a></li>
+				</ul>
+            </div>
+            <div class="search">
+                <span id="pp"></span>
+                <i class="fas fa-shopping-bag" style="padding-right:10px"></i>
+                <i class="fas fa-search" style="padding-right:0px"></i>
+            </div>
+        </div>
+    </section> 
+    <section class="bar b">
+        <div class="wrapper">
+            <div class="hero-content">
+                <h1>YES, I'm Master!<br/>and I'm ready to help you.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="button">Contact me if you dare</button>
+            </div>
+        </div>
+    </section> 
+    <section class="bar">
+            <div class="box">
+                <div class="wrapper-circle"><i class="fas fa-plug"></i></div><br/><br/><br/>
+                    <h4 class="t" style="padding-left:10px;">Electricity</h4>
+                    <ul style="margin-top:20px;">
+                        <li>Extensions &amp; Loft</li>
+                        <li>Refurbishment projects</li>
+                        <li>Electrical design</li>
+                    </ul>
+            </div>
+            <div class="box">
+                <div class="wrapper-circle" ><i class="fas fa-paint-roller"></i></div><br/><br/><br/>
+                    <h4 class="t">Painting</h4>
+                    <ul>
+                        <li>Extensions &amp; Loft</li>
+                        <li>Refurbishment projects</li>
+                        <li>Electrical design</li>
+                    </ul>
+                
+            </div>
+            <div class="box">
+                <div class="wrapper-circle"><i class="fas fa-th-large"></i></div><br/><br/><br/>
+                    <h4 class="t" >Flooring</h4>
+                    <ul>
+                        <li>Extensions &amp; Loft</li>
+                        <li>Refurbishment projects</li>
+                        <li>Electrical design</li>
+                    </ul>
+                
+            </div>
+            <div class="box">
+                <div class="wrapper-circle"><i class="fas fa-shower"></i></div><br/><br/><br/>
+                    <h4 class="t" >Flooring</h4>
+                    <ul>
+                        <li>Extensions &amp; Loft</li>
+                        <li>Refurbishment projects</li>
+                        <li>Electrical design</li>
+                    </ul>
+                
+            </div>
+    
+    </section> 
+
+    <div id="loginModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span onclick="obj.col();" class="closeLogin close">&times;</span>
+            <form  name="registration" class="registartion-form" >
+                <div class="form-wrap">
+                    <h1>Login</h1>
+                    <p>It's free and only takes a minute</p>
+        
+                    
+                    <div class="from-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+        
+                    <div class="from-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <span id="p1" ></span>
+                    </div>
+                    
+                    <button onclick = "vali.submit(); " type="submit" class="btn">Login</button>
+                    <!-- <button onclick = "vali.refresh(); " type="submit" class="">Reset</button> -->
+                    <p class="bottom-text">
+                    By clicking the Login Button,You Agree to our 
+                    <a href="#">Terms & Conditions</a> and
+                    <a href="#">Privacy Policy</a>
+                    </p>
+        
+                </div>
+            </form>
+            <footer>
+                <p>Already have an account  <a onclick = "obj.reg1();" id="registerBtn1">Sign Up Here</a></p>
+            </footer>
+        </div>
+      
+      </div>
+
+      <div id="registerModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style="margin-top:5%;">
+            <span onclick="obj.col1();" class="closeRegister close">&times;</span>
+            <form action="./index.html" method="post" name="myForm">
+                <!-- <form   onsubmit=" regi.validateForm()" name="myForm"></form> -->
+                <div class="form-wrap">
+                    <h1>Register Here</h1>
+                    <p>It's free and only takes a minute</p>
+        
+                    <div class="from-group">
+                        <label  for="first-name">First Name <small class="dan">*</small></label>
+                        <input oninput ="index.first();" size="12" placeholder="First Name" type="text" name="first_name" id="firstname" value=""><br>
+                        <span id="fs" class="dan  man"></span>
+                    </div>
+                    <div class="from-group">
+                        <label for="last-name">Last Name <small class="dan">*</small></label>
+                        <input oninput ="index.last();" size="12" placeholder="Last Name" type="text" name="last_name" id="lastname" value="">
+                        <span id="ls"  class="dan man" ></span>
+                    </div>
+
+                    <div class="from-group1 ">
+                        <label>Gender <small class="dan">*</small></label> <br/> 
+                            <input on  type="radio" name="gender" id="male" checked /> Male 
+                            <input type="radio" name="gender" id="female" /> Female
+                            <br/>
+                            <span class ="dan man"  id="gs"></span>
+                    </div>  
+                    <div class="from-group ">
+                        <label  for="Date Of Birth">Date Of Birth <small class="dan">*</small></label>
+                        <input oninput ="index.db();" size="10"  placeholder="DD/MM/YYYY" id="DOB" type="text" name="DOB"  value="">
+                        <span class="dan man"  id="ds"></span>
+                    </div>
+                    <div class="from-group ">
+                        <label  for="Mobile No">Mobile No <small class="dan">*</small></label>
+                        <input oninput ="index.mobi();" minlength="10" maxlength="10" size="10"  id="mobile" type="text" name="mobile"  value="" placeholder="Mobile">
+                        <span class="dan man"  id="ms"></span>
+                    </div>
+
+                    <div class="from-group">
+                        <label for="email">Email <small class="dan">*</small></label>
+                        <input oninput ="index.emai();" size="20"  placeholder="Email Id" type="text" name="email" id="email_" value="">
+                        <span id="es" class="dan man"></span>
+                    </div>
+        
+                    <div class="from-group">
+                        <label for="password">Password <small class="dan">*</small></label>
+                        <input on ="index.pass();" size="15"  placeholder="Password" type="text" name="password" id="password_" value="">
+                        <span id="ps" class="dan man"></span>
+                    </div>
+                    <div class="from-group">
+                        <label for="cpassword"> Confirm Password <small class="dan">*</small></label>
+                        <input oninput ="index.cpass();" size="15"  placeholder="Confirm Password" type="text" name="cpassword" id="cpassword_" value="">
+                        <span id="cs" class="dan man"></span>
+                    </div>
+                    <div class="from-group1 ">
+                        <label>Hobbies <small class="dan">*</small></label>  <br/>
+                            <input  type="checkbox" name="hobbies" class="hobbies" id="h1" value="Treking"/>Treking
+                            <input type="checkbox" name="hobbies" class="hobbies" id="h2" value="Swimming"/>Gyming
+                            <input type="checkbox" name="hobbies" class="hobbies" id="h3" value="Gym"/>Cooking
+                            <br/>
+                            <span class ="dan man"  id="hs"></span>
+                    </div>  
+                    <div class="from-group">
+                        <label>City <small class="dan">*</small></label>
+                        <select  onchange="index.ci();" name="city" id="city" style="padding:8px;width:100%;margin-top:10px;border: #ddd 1px solid;">
+                            <option value="">Select City</option>
+                            <option  value="pen">Pen</option>
+                            <option value="alibug">Alibug</option>
+                            <option value="panvel">Panvel</option>
+                        </select> 
+                        <span class ="dan man"  id="lo"></span>
+                    </div>  
+
+                    <div class="from-group">
+                        <label for="address">Address <small class="dan">*</small></label>
+                        <textarea oninput ="index.addr();" minlength="3" maxlength="20" size="20"  placeholder="Addreess" id="address" name="address" rows="4" cols="50" style="padding:8px;width:96%;margin-top:10px;border: #ddd 1px solid;"></textarea><br>
+                        <span class ="dan man"  id="as"></span>
+                    </div> 
+                    <div class="from-group">
+                        <label  for="zip-code">zip-code <small class="dan">*</small></label>
+                        <input oninput ="index.z();" minlength="6" maxlength="6" size="6"   placeholder="Zip-Code" type="text" name="zipcode" id="zipcode"  value="">
+                        <span  class ="dan man"  id="zs"></span>
+                    </div>
+                    
+                    
+                    <button onclick="index.validateForm();" type="button" class="btn" name="submit" id="submitForm">Register</button>
+                    <!-- <button onclick="vali.refresh();"  type="reset"  name="submit">Reset</button> -->
+                    <p class="bottom-text">
+                        
+                    By clicking the Register Button,You Agree to our 
+                    <a href="#">Terms & Conditions</a> and
+                    <a href="#">Privacy Policy</a>
+                    </p>
+        
+                </div>
+            </form>
+            <footer>
+                <p>Already have an account <a onclick= " obj.log1();" id="loginBtn1">Login Here</a></p>
+            </footer>
+        </div>
+      
+      </div>
+
+      
+</div>
+<div id="detailModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content" style="margin-top:5%;">
+        <span onclick="obj.col2();" class="closeDetail close">&times;</span>
+        <h3>User Details</h3>
+        <ul>
+            <li>First Name: <span id="show_1"> </span></li>
+            <li>Last Name: <span id="show_2"> </span></li>
+            <li>Gender: <span id="show_3"> </span></li>
+            <li>Date Of Birth <span id="show_4"> </span></li>
+            <li>Mobile: <span id="show_5"> </span></li>
+            <li>Email <span id="show_6"> </span></li>
+            <li>Password: <span id="show_7"> </span></li>
+            <li>Hobbies: <span id="show_11"></span></li>
+            <li>City: <span id="show_8"> </span></li>
+            <li>Address: <span id="show_9"> </span></li>
+            <li>Zipcode: <span id="show_10"></span></li>
+        </ul>
+
+    </div>
+</div>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
